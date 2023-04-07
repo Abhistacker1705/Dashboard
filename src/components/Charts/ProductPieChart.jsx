@@ -13,7 +13,7 @@ const ProductPieChart = () => {
 	const formatLegendValue = (value, entry) => (
 		<div className='inline-flex ml-4 flex-col gap-1'>
 			<span style={{ fontSize: "14px", fontWeight: "700", color: "black" }}>{value}</span>
-			<span style={{ fontSize: "12px", color: "#858585" }}>"55%"</span>
+			<span style={{ fontSize: "12px", color: "#858585" }}>55%</span>
 		</div>
 	)
 

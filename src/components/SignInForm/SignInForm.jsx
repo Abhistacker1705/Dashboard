@@ -13,12 +13,12 @@ const SignInForm = () => {
 		})
 	}
 	return (
-		<div className='flex flex-col gap-8 basis-96'>
-			<div className='flex flex-col'>
+		<div className='flex flex-col basis-96 gap-8 max-md:w-10/12'>
+			<div className='flex flex-col max-md:items-center'>
 				<h2 className='font-bold text-4xl'>Sign In</h2>
 				<h3 className='font-bold text-base'>Sign into your account</h3>
 			</div>
-			<div className='flex gap-4'>
+			<div className='flex gap-4 max-md:justify-center'>
 				<button className='flex justify-center items-center gap-4 w-[180px] h-[30px] delay-100 rounded-[10px] bg-white hover:-translate-y-[4px]'>
 					<img className='w-4 h-4' src='https://img.icons8.com/color/48/null/google-logo.png' />
 					<p className='text-xs  text-[#858585]'>Sign in with google</p>
