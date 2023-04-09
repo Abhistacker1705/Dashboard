@@ -1,5 +1,5 @@
 import React from "react"
-import CardList from "../../utils/CardItems"
+import CardList from "../../utils/CardList"
 import Card from "./Card"
 
 const FourCards = () => {

@@ -14,7 +14,6 @@ const Dashboard = () => {
 		async function dataSet() {
 			const res = await getData()
 			setDatas(res.data.record)
-			console.log(res.data.record)
 		}
 		dataSet()
 	}, [])
